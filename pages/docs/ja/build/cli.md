@@ -2,7 +2,7 @@
 title: "CLI"
 ---
 
-import { Card, Cards } from '@components/index'
+
 
 # CLI
 

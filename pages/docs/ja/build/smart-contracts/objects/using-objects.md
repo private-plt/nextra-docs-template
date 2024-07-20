@@ -2,7 +2,7 @@
 title: "Using objects"
 ---
 
-import { Callout } from 'nextra/components'
+
 
 # オブジェクトの使用
 

@@ -1,7 +1,7 @@
 ---
 title: "Creating objects"
 ---
-import { Callout } from 'nextra/components'
+
 
 
 # オブジェクトの作成と構成
