@@ -18,42 +18,38 @@ Moveを使用すると開発者は、資産への攻撃に対するセキュリ�
 
 ## 📖 Moveを学ぶ
 
-<Cards>
-  <Card href="smart-contracts/why-move">
-    <Card.Title>　なぜMove?</Card.Title>
-    <Card.Description>なぜAptosはMove言語を使うのか学ぶ</Card.Description>
-  </Card>
-  {/* <Card href="smart-contracts/prover">
-    <Card.Title>Move Prover</Card.Title>
-    <Card.Description>Formal specification and verification of Move contracts on Aptos</Card.Description>
-  </Card> */}
-  <Card href="smart-contracts/create-package">
-    <Card.Title>パッケージを作成</Card.Title>
-    <Card.Description>Moveパッケージの作成方法をまず学びましょう</Card.Description>
-  </Card>
-  <Card href="smart-contracts/objects">
-    <Card.Title>オブジェクト</Card.Title>
-    <Card.Description>Aptosのオブジェクト標準を使用して、オンチェーンで構成可能で柔軟なプリミティブを作成する方法を学ぶ</Card.Description>
-  </Card>
-</Cards>
+
+[なぜMove?](https://aptos.dev/en/build/smart-contracts/why-move)
+    
+  なぜAptosはMove言語を使うのか学ぶ
+ 
+[Moveオブジェクト](https://aptos.dev/en/build/smart-contracts/objects)
+   
+   Formal specification and verification of Move contracts on Aptos
+
+[パッケージを作成](https://aptos.dev/en/build/smart-contracts/create-package)
+    
+    Moveパッケージの作成方法をまず学びましょう
+
+[オブジェクト]()
+    
+    Aptosのオブジェクト標準を使用して、オンチェーンで構成可能で柔軟なプリミティブを作成する方法を学ぶ
+ 
 
 ## 👨‍💻 Move例
 
-<Cards>
-  <Card href="https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/move-examples">
-    <Card.Title linkType="external">Aptos Move例</Card.Title>
-    <Card.Description>AptosのMoveで開発する30+の例</Card.Description>
-  </Card>
-  <Card href="https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/move-examples/move-tutorial">
-    <Card.Title linkType="external">Moveチュートリアル</Card.Title>
-    <Card.Description>を使ったプログラミングの基礎をカバーします</Card.Description>
-  </Card>
-  <Card href="guides/first-move-module">
-    <Card.Title>最初のMoveモジュール</Card.Title>
-    <Card.Description>最初のmoveモジュールを公開する方法
-    の例`hello_blockchain`</Card.Description>
-  </Card>
-</Cards>
+[Aptos Move例](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/move-examples)
+   
+   AptosのMoveで開発する30+の例
+
+[Moveチュートリアル](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/move-examples/move-tutorial)
+    
+    Moveを使ったプログラミングの基礎をカバーします
+  
+[最初のMoveモジュール](https://aptos.dev/en/build/guides/first-move-module)
+    
+    最初のmoveモジュールを公開する方法の例`hello_blockchain`
+  
 
 Moveの`hello_blockchain`の例はこちら:
 

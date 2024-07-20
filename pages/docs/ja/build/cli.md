@@ -13,74 +13,53 @@ Aptosコマンドラインインターフェース(CLI)は、Moveコントラク
 
 ## 📥 Aptos CLIをインストールする
 
-<Cards className="xl:grid-cols-2">
-  <Card href="./cli/install-cli/install-cli-mac" className="flex flex-row gap-4">
-    <Card.Image className="object-contain dark:invert" src="/docs/apple.svg" />
-    <div className="flex flex-col gap-2">
-      <Card.Title>Mac</Card.Title>
-      <Card.Description>
-         Homebrew経由でAptos CLIをインストールする 
-         ```sh
-         brew install aptos
-         ```
-      </Card.Description>
-    </div>
-  </Card>
-  <Card href="./cli/install-cli/install-cli-windows" className="flex flex-row gap-4">
-    <Card.Image src="/docs/windows.svg" />
-    <div className="flex flex-col gap-2">
-      <Card.Title>Windows</Card.Title>
-      <Card.Description>
-          Pythonスクリプトもしくはコンパイル済みバイナリを介してWindowsへAptos CLIをインストールする
-      </Card.Description>
-    </div>
-  </Card>
-  <Card href="./cli/install-cli/install-cli-linux" className="flex flex-row gap-4">
-    <Card.Image className="object-contain" src="/docs/linux.svg" />
-    <div className="flex flex-col gap-2">
-      <Card.Title>Linux</Card.Title>
-      <Card.Description>
-         Pythonスクリプトもしくはコンパイル済みバイナリを介してLinuxへAptos CLIをインストールする
-      </Card.Description>
-    </div>
-  </Card>
-  <Card href="./cli/install-cli/install-cli-specific-version" className="flex flex-row gap-4">
-    <Card.Image className="dark:invert" src="/docs/advanced.svg" />
-    <div className="flex flex-col gap-2">
-      <Card.Title>上級 (特定のバージョンをインストールする)</Card.Title>
-      <Card.Description>
-         ソースからAptos CLIの特定のバージョンをインストールする
-      </Card.Description>
-    </div>
-  </Card>
-</Cards>
+
+### [Mac](https://aptos.dev/en/build/cli/install-cli/install-cli-mac)
+      
+         
+   ```sh filename="Homebrew経由でAptos CLIをインストールする"
+      brew install aptos
+   ```
+      
+   
+ ### [Windows](https://aptos.dev/en/build/cli/install-cli/install-cli-windows)
+    
+  Pythonスクリプトもしくはコンパイル済みバイナリを介してWindowsへAptos CLIをインストールする
+     
+ 
+
+### [Linux](https://aptos.dev/en/build/cli/install-cli/install-cli-linux)
+      
+   Pythonスクリプトもしくはコンパイル済みバイナリを介してLinuxへAptos CLIをインストールする
+   
+ 
+### [上級](https://aptos.dev/en/build/cli/install-cli/install-cli-specific-version) (特定のバージョンをインストールする)
+      
+   ソースからAptos CLIの特定のバージョンをインストールする
+     
 
 ## ⚙️ Aptos CLIを設定する
 
-<Cards>
-  <Card href="./cli/setup-cli">
-    <Card.Title>CLIを設定する</Card.Title>
-    <Card.Description>Aptos CLIのセットアップと構成 </Card.Description>
-  </Card>
-  <Card href="./cli/setup-cli/install-move-prover">
-    <Card.Title>Move Prover</Card.Title>
-    <Card.Description>Move Proverの設定とインストール</Card.Description>
-  </Card>
-</Cards>
+ [CLIを設定する](https://aptos.dev/en/build/cli/setup-cli)
+
+    Aptos CLIのセットアップと構成 
+
+[Move Prover](https://aptos.dev/en/build/cli/setup-cli/install-move-prover)
+
+    Move Proverの設定とインストール
+
 
 ## 🛠️ Aptos CLIの使用
 
-<Cards>
-  <Card href="./cli/working-with-move-contracts">
-    <Card.Title>Moveコントラクト</Card.Title>
-    <Card.Description>Moveコントラクトのコンパイル、公開、シミュレート、ベンチマーク</Card.Description>
-  </Card>
-  <Card href="./cli/trying-things-on-chain">
-    <Card.Title>オンチェーンで試す</Card.Title>
-    <Card.Description>Aptosとやり取りし、アカウントを作成し、アカウントをクエリし、Ledger等のハードウェアデバイスを使用します</Card.Description>
-  </Card>
-  <Card href="./cli/running-a-local-network">
-    <Card.Title>ローカルネットワークの実行</Card.Title>
-    <Card.Description>ローカルノード/ネットワークを実行する</Card.Description>
-  </Card>
-</Cards>
+[Moveコントラクト](https://aptos.dev/en/build/cli/working-with-move-contracts)
+
+  Moveコントラクトのコンパイル、公開、シミュレート、ベンチマーク
+   
+[オンチェーンで試す](https://aptos.dev/en/build/cli/trying-things-on-chain)
+    
+    Aptosとやり取りし、アカウントを作成し、アカウントをクエリし、Ledger等のハードウェアデバイスを使用します
+    
+[ローカルネットワークの実行](https://aptos.dev/en/build/cli/running-a-local-network)
+
+   ローカルノード/ネットワークを実行する
+  
